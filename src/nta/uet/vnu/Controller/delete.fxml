@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="272.0" prefWidth="448.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nta.uet.vnu.Controller.deleteController">
+   <children>
+      <AnchorPane prefHeight="73.0" prefWidth="449.0" style="-fx-background-color: #ff6700;">
+         <children>
+            <Text fill="WHITE" layoutX="161.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Xóa Từ">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="FXMLxoatienganh" layoutX="96.0" layoutY="87.0" prefHeight="39.0" prefWidth="258.0" promptText="Nhập từ ...." />
+      <Button layoutX="105.0" layoutY="205.0" mnemonicParsing="false" onAction="#delete" prefHeight="31.0" prefWidth="70.0" text="Gửi" />
+      <Button layoutX="290.0" layoutY="205.0" mnemonicParsing="false" onAction="#backDic" prefHeight="31.0" prefWidth="64.0" text="Trở Về" />
+      <TextField fx:id="FXMLxoatiengviet" layoutX="96.0" layoutY="144.0" prefHeight="39.0" prefWidth="258.0" promptText="Nhập nghĩa..." />
+   </children>
+</AnchorPane>

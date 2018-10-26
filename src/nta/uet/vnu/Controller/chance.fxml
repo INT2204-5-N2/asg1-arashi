@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="285.0" prefWidth="426.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nta.uet.vnu.Controller.chanceController">
+   <children>
+      <AnchorPane layoutY="-2.0" prefHeight="53.0" prefWidth="426.0" style="-fx-background-color: red;">
+         <children>
+            <Text fill="WHITE" layoutX="159.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Sửa Từ">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="textTuSua" layoutX="99.0" layoutY="81.0" prefHeight="35.0" prefWidth="240.0" promptText="Nhập từ muốn sửa ...." />
+      <TextField fx:id="textSuaNghia" layoutX="99.0" layoutY="188.0" prefHeight="35.0" prefWidth="240.0" promptText="Sửa nghĩa thành...." />
+      <TextField fx:id="textSuaTu" layoutX="99.0" layoutY="132.0" prefHeight="35.0" prefWidth="240.0" promptText="Sửa từ thành..." />
+      <Button layoutX="99.0" layoutY="240.0" mnemonicParsing="false" onAction="#chance" prefHeight="35.0" prefWidth="65.0" text="Gửi" />
+      <Button layoutX="263.0" layoutY="240.0" mnemonicParsing="false" onAction="#backDic" prefHeight="35.0" prefWidth="76.0" text="Trở Về" />
+   </children>
+</AnchorPane>

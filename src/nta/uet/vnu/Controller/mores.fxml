@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="272.0" prefWidth="448.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nta.uet.vnu.Controller.moreController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#757c80" height="67.0" stroke="BLACK" strokeType="INSIDE" width="448.0" />
+      <Label layoutX="170.0" layoutY="13.0" prefHeight="41.0" prefWidth="120.0" style="-fx-font-weight: bold;" text="Thêm Từ" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="151.0" layoutY="218.0" mnemonicParsing="false" onAction="#add" text="Gửi" />
+      <Button layoutX="283.0" layoutY="218.0" mnemonicParsing="false" onAction="#backDic" text="Trở về" />
+      <TextField fx:id="FXMLthemtienganh" layoutX="101.0" layoutY="93.0" prefHeight="41.0" prefWidth="285.0" promptText="Nhập từ cần thêm..." />
+      <TextField fx:id="FXMLthemtiengviet" layoutX="101.0" layoutY="152.0" prefHeight="41.0" prefWidth="285.0" promptText="Nhập nghĩa từ cần thêm..." />
+   </children>
+</AnchorPane>
